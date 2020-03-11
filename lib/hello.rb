@@ -9,7 +9,7 @@ def hello_t(array)
   array
 end
 
-hello_t { puts "the method has yielded to the block!" }
+hello_t(3) { puts "the method has yielded to the block!" }
 
 # call your method here!
 
