@@ -9,6 +9,8 @@ def hello_t(array)
   array
 end
 
+hello_t { puts "the method has yielded to the block!" }
+
 # call your method here!
 
 # hello_t(["Tim", "Tom", "Jim"]) do |name|
